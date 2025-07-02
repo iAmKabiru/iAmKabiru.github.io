@@ -1,50 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iamkabiru | LinkedIn</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f3f2ef;
-            color: #333;
-        }
-        .container {
-            text-align: center;
-        }
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-        p {
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
-        }
-        a {
-            text-decoration: none;
-            color: white;
-            background-color: #0077b5;
-            padding: 0.8rem 1.5rem;
-            border-radius: 5px;
-            font-size: 1rem;
-        }
-        a:hover {
-            background-color: #005582;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kabiru Abdulhamid | Software Engineer & DevOps Specialist</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <div class="container">
-        <h1>Welcome to Kabiru's LinkedIn</h1>
-        <p>Connect with me on LinkedIn to explore my professional journey.</p>
-        <a href="https://www.linkedin.com/in/iamkabiru" target="_blank">Visit My LinkedIn</a>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <header class="bg-white shadow">
+    <div class="max-w-6xl mx-auto px-4 py-6 flex flex-col sm:flex-row justify-between items-center">
+      <div>
+        <h1 class="text-2xl font-bold">Kabiru Abdulhamid</h1>
+        <p class="text-sm text-gray-600">Software Engineer & DevOps Specialist</p>
+      </div>
+      <div class="mt-4 sm:mt-0 text-sm">
+        <p>Email: <a href="mailto:abdulhamidkabiru@gmail.com" class="text-blue-500">abdulhamidkabiru@gmail.com</a></p>
+        <p>Phone: +2348061188071</p>
+        <p><a href="https://linkedin.com/in/iamkabiru" class="text-blue-500" target="_blank">LinkedIn</a></p>
+      </div>
     </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-10 space-y-10">
+    <!-- Summary -->
+    <section>
+      <h2 class="text-xl font-semibold mb-2">Summary</h2>
+      <p>
+        Software Engineer and DevOps Specialist with 6+ years of experience building scalable web apps and cloud infrastructure. Skilled in Django, Flask, FastAPI, NestJS, React, CI/CD, Docker, Kubernetes, and cloud services (AWS, Azure, GCP). Passionate about delivering AI-driven and secure solutions that drive impact.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section>
+      <h2 class="text-xl font-semibold mb-4">Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
+        <div><strong>Languages:</strong> Python, JavaScript</div>
+        <div><strong>Frameworks:</strong> Django, Flask, FastAPI, NestJS, React, Next.js</div>
+        <div><strong>Databases:</strong> PostgreSQL, MongoDB, DynamoDB, Redis</div>
+        <div><strong>DevOps:</strong> Docker, Kubernetes, Jenkins, GitHub Actions</div>
+        <div><strong>Cloud:</strong> AWS, Azure, GCP</div>
+        <div><strong>Tools:</strong> Apache Kafka, Airflow, Terraform</div>
+        <div><strong>AI & ML:</strong> GPT-3, RAG, LLMs</div>
+        <div><strong>Soft Skills:</strong> Team Leadership, Communication</div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section>
+      <h2 class="text-xl font-semibold mb-4">Experience</h2>
+      <div class="space-y-6">
+        <!-- Schooltry -->
+        <div>
+          <h3 class="font-bold">Software Engineer – Schooltry, Abuja, NG <span class="text-sm text-gray-500">| Jun 2022 - Present</span></h3>
+          <ul class="list-disc list-inside text-sm mt-2">
+            <li>Led development of AI-based quiz generation with GPT-3 and RAG.</li>
+            <li>Managed AWS deployment with ECS, S3, and RDS (20% cost savings).</li>
+            <li>Integrated secure payments with 99.9% uptime across global gateways.</li>
+            <li>Built Airflow ETL pipelines for LLM text preprocessing.</li>
+          </ul>
+        </div>
+
+        <!-- ICT Cave -->
+        <div>
+          <h3 class="font-bold">Software Engineer – ICT Cave, Abuja, NG <span class="text-sm text-gray-500">| Jan 2022 - Jul 2022</span></h3>
+          <ul class="list-disc list-inside text-sm mt-2">
+            <li>Deployed Odoo/ERPNext on AWS EKS with 99.9% uptime.</li>
+            <li>Implemented CI/CD pipelines with GitHub Actions & Jenkins.</li>
+            <li>Used Docker & Kafka to improve consistency and data throughput.</li>
+          </ul>
+        </div>
+
+        <!-- Planta -->
+        <div>
+          <h3 class="font-bold">Software Engineer – Planta Agro Services, Kano, NG <span class="text-sm text-gray-500">| Nov 2018 – Aug 2021</span></h3>
+          <ul class="list-disc list-inside text-sm mt-2">
+            <li>Redesigned architecture for multi-tenancy using Django & PostgreSQL.</li>
+            <li>Implemented crop yield tools and SSO for 1000+ users.</li>
+            <li>Deployed AWS EKS infrastructure using Terraform.</li>
+          </ul>
+        </div>
+
+        <!-- FlexiSAF -->
+        <div>
+          <h3 class="font-bold">Software Engineer – FlexiSAF Edusoft, Kano, NG <span class="text-sm text-gray-500">| Mar 2018 – Sep 2018</span></h3>
+          <ul class="list-disc list-inside text-sm mt-2">
+            <li>Improved page load times by 35% and scaled GKE deployments.</li>
+            <li>Set up automated testing, reducing bugs by 30%.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <h2 class="text-xl font-semibold mb-2">Education</h2>
+      <ul class="list-disc list-inside text-sm">
+        <li>B.Sc. Computer Science – Federal University Dutse (2019)</li>
+        <li>National Diploma in Computer Science – Jigawa State Polytechnic (2015)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="bg-white mt-10 py-6 text-center text-sm text-gray-500">
+    &copy; 2025 Kabiru Abdulhamid. All rights reserved.
+  </footer>
 </body>
 </html>
